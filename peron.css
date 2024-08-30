@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('tlo.jpg');
+    background-image: url('img/tlo.jpg');
     background-size: cover;
     font-family: 'JetBrains Mono';
     font-size: 16px;
