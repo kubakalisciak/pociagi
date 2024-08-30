@@ -10,10 +10,13 @@ body {
     background-size: cover;
     font-family: 'JetBrains Mono';
     font-size: 16px;
+    gap: 10px;
 }
 
 .in {
     background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .out {
@@ -54,4 +57,24 @@ body {
 
 .big-span {
     font-size: 24px;
+}
+
+button, input, a {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'JetBrains Mono';
+    margin: 5px;
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.in-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
