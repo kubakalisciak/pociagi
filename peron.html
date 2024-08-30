@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wyświetlacz peronowy</title>
+    <link rel="stylesheet" href="peron.css">
+    <script src="peron.js" defer></script>
+    <link rel="stylesheet" href="scroll.css">
+    <script src="scroll.js"></script>
+</head>
+<body>
+        <div class="in">
+            <input type="text" placeholder="peron" id="peronI">
+            <input type="text" placeholder="tor" id="torI">
+            <input type="time" id="godzinaI">
+            <input type="text" placeholder="numer pociągu" id="numerI">
+            <input type="text" placeholder="stacja końcowa" id="koncowaI">
+            <input type="text" placeholder="stacje pośrednie" id="posrednieI">
+            <input type="text" placeholder="inne informacje" id="inneI">
+
+            <button id="aktualizujP">Aktualizuj</button>
+        </div>
+        <div class="out">
+            <div class="head">
+                <div>
+                    <p>peron <span class="big-span" id="peronO"></span></p>
+                </div>
+                <div>
+                    <p>tor <span class="big-span" id="torO"></span></p>
+                </div>
+            </div>
+            <div class="screen">
+                <div class="left">
+                    <span class="big-span" id="godzinaO"></span>
+                    <span id="numerO"></span>
+                </div>
+                <div class="right">
+                    <span id="koncowaO">stacja końcowa</span>
+                    <div class="scroll-container"><span class="scroll-text" id="posrednieO">
+                    </span></div>
+                    <div class="scroll-container white-scroll"><span class="scroll-text" id="inneO"></span></div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
