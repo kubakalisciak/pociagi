@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
 
 body {
@@ -6,7 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('img/tlo1.jpg');
+    background-image: url('img/tlo2.jpg');
     background-size: cover;
     font-family: 'JetBrains Mono';
     font-size: 16px;
@@ -17,46 +18,6 @@ body {
     background-color: whitesmoke;
     padding: 10px;
     border-radius: 10px;
-}
-
-.out {
-    background-color: black;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-}
-
-.head {
-    display: flex;
-    gap: 10px;
-    background-color: black;
-    color: whitesmoke;
-    justify-content: space-around;
-}
-
-.screen {
-    display: flex;
-    gap: 10px;
-    background-color: #3232ff;
-    color: whitesmoke;
-    padding-left: 10px;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.white-scroll {
-    color: #3232ff;
-    background-color: whitesmoke;
-}
-
-.big-span {
-    font-size: 24px;
 }
 
 button, input, a {
