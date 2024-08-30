@@ -18,15 +18,23 @@
             <input type="text" placeholder="stacje pośrednie" id="posrednieI">
             <input type="text" placeholder="inne informacje" id="inneI">
 
+            <label for="lang">Język/Language:</label>
+            <select id="lang">
+                <option value="pl">PL</option>
+                <option value="en">EN</option>
+            </select>
+
             <button id="aktualizujP">Aktualizuj</button>
+            <button id="wyczyscP">Wyczyść</button>
+
         </div>
         <div class="out">
             <div class="head">
                 <div>
-                    <p>peron <span class="big-span" id="peronO"></span></p>
+                    <p id="peronT">peron <span class="big-span" id="peronO"></span></p>
                 </div>
                 <div>
-                    <p>tor <span class="big-span" id="torO"></span></p>
+                    <p id="torT">tor <span class="big-span" id="torO"></span></p>
                 </div>
             </div>
             <div class="screen">

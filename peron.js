@@ -25,6 +25,7 @@ function odczytaj() {
 
 function aktualizuj() {
     odczytaj();
+
     let koncowaO = document.querySelector('#koncowaO');
     koncowaO.textContent = koncowa;
     let posrednieO = document.querySelector('#posrednieO');
@@ -41,5 +42,25 @@ function aktualizuj() {
     numerO.textContent = numer;
 }
 
+function wyczysc() {
+    let koncowaI = document.querySelector('#koncowaI');
+    koncowaI.value = '';
+    let posrednieI = document.querySelector('#posrednieI');
+    posrednieI.value = '';
+    let godzinaI = document.querySelector('#godzinaI');
+    godzinaI.value = '';
+    let inneI = document.querySelector('#inneI');
+    inneI.value = '';
+    let peronI = document.querySelector('#peronI');
+    peronI.value = '';
+    let torI = document.querySelector('#torI');
+    torI.value = '';
+    let numerI = document.querySelector('#numerI');
+    numerI.value = '';
+}
+
 let aktualizujP = document.querySelector('#aktualizujP');
 aktualizujP.onclick = () => aktualizuj();
+
+let wyczyscP = document.querySelector('#wyczyscP');
+wyczyscP.onclick = () => wyczysc();
