@@ -7,7 +7,7 @@ let nazwa;
 function odczytaj() {
     let koncowaI = document.querySelector('#koncowaI');
     koncowa = koncowaI.value;
-    let poczatkowaI = document.querySelector('#koncowaI');
+    let poczatkowaI = document.querySelector('#poczatkowaI');
     poczatkowa = poczatkowaI.value;
     let posrednieI = document.querySelector('#posrednieI');
     posrednie = posrednieI.value;
@@ -29,7 +29,7 @@ function aktualizuj() {
     let numerO = document.querySelector('#numerO');
     numerO.textContent = numer;
     let nazwaO = document.querySelector('#nazwaO');
-    nazwaO.textContent = nazwa;
+    nazwaO.textContent = nazwa.toUpperCase();
 }
 
 function wyczysc() {
